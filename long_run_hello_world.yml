@@ -4,9 +4,9 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-    - name: Pause for 5 minutes
+    - name: Pause for 15 minutes
       ansible.builtin.pause:
-        minutes: 5
+        minutes: 15
     - name: Hello Message 2
       debug:
         msg: "Hello World 2!"
